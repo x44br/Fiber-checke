@@ -6,9 +6,10 @@
 
     <application
         android:requestLegacyExternalStorage="true"
-        android:label="Fiber checke"
+        android:label="FiberCheck"
         android:icon="@drawable/ic_launcher"
-        android:theme="@style/NormalTheme">
+        android:theme="@style/NormalTheme"
+android:usesCleartextTraffic="true">
         <activity
             android:name=".MainActivity"
             android:exported="true"
